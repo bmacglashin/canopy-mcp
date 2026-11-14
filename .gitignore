@@ -1,0 +1,18 @@
+# Secrets and environment — never commit
+.env
+.env.*
+*.key
+*.pem
+credentials*
+*secret*
+
+# Dependencies and build output
+node_modules/
+dist/
+__pycache__/
+*.pyc
+
+# OS and editor noise
+.DS_Store
+.idea/
+.vscode/
