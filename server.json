@@ -1,14 +1,14 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-  "description": "Book local service pros from your AI assistant: real availability, instant booking, easy cancels.",
   "name": "com.coppoak/canopy",
+  "title": "Canopy by Copp Oak",
+  "description": "Book home-service pros from your AI assistant: plumbers, HVAC, roofers, electricians \u2014 by ZIP code.",
+  "version": "0.1.2",
+  "websiteUrl": "https://coppoak.com/canopy/",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://mcp.coppoak.com/mcp/public"
     }
-  ],
-  "title": "Canopy by Copp Oak",
-  "version": "0.1.1",
-  "websiteUrl": "https://coppoak.com/canopy/"
+  ]
 }
